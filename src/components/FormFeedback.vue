@@ -15,10 +15,7 @@ const state = reactive({
 	name: '',
 	phone: '',
 	email: '',
-	file: {
-		name: '',
-		data: ''
-	},
+	file: '',
 	policy: true,
 })
 
