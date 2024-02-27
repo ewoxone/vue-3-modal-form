@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.fade-100-enter-active,
+.fade-100-leave-active {
+	transition: opacity .1s ease;
+}
+
+.fade-100-enter-from,
+.fade-100-leave-to {
+	opacity: 0;
+}
